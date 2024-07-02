@@ -47,7 +47,7 @@ class_definition = {
     "D":"Not creating a weld or burn through."
 }
 app = Flask(__name__)
-app.config['DEBUG']=os.environ.get('FLASK_DEBUG')
+# app.config['DEBUG']=os.environ.get('FLASK_DEBUG')
 #------------------------------------------------------------------------------------------------------#
 ### Define model
 # Load your YOLOv8 model
